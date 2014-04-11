@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Script to randomly set Background from files in a directory
+
+# Directory Containing Pictures
+DIR="/root/Pictures/wallz"
+
+# Command to Select a random jpg file from directory
+# Delete the *.jpg to select any file but it may return a folder
+PIC=$(ls $DIR/ | shuf -n1)
+
+#DISPLAY=:1 feh --bg-center /root/Pictures/wallz/$PIC
+feh --bg-center /root/Pictures/wallz/$PIC
+

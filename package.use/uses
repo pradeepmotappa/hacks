@@ -1,0 +1,228 @@
+sys-kernel/debian-sources binary
+dev-libs/libpcre -readline
+media-libs/mesa gbm xorg xorg
+net-dns/avahi mdnsresponder-compat gtk3 gtk 
+net-fs/samba winbind
+media-libs/libsdl -directfb
+net-fs/cifs-utils -acl 
+dev-libs/DirectFB -svg 
+x11-libs/gtk -cups
+media-libs/libjpeg-turbo -java
+net-print/cups -java -zeroconf 
+dev-libs/DirectFB -sdl
+media-plugins/gst-plugins-meta -ffmpeg
+dev-lang/ghc binary
+app-portage/eix strong-optimization tools
+dev-vcs/subversion webdav-serf
+app-portage/layman bazaar cvs mercurial subversion
+media-libs/mesa gles1 gles2 openvg xa  xvmc -opencl
+x11-base/xorg-drivers 
+x11-misc/lightdm qt4
+sys-fs/cryptsetup  reencrypt urandom
+x11-base/xorg-server dmx xnest xvfb xorg 
+x11-drivers/xf86-video-intel xvmc glamor uxa
+app-editors/vim perl
+sys-devel/gcc cxx  go objc objc++ 
+net-misc/curl curl_ssl_nss -curl_ssl_openssl
+sys-apps/hwloc -opencl
+media-libs/freetype  fontforge utils infinality -auto-hinter
+app-admin/conky hddtemp iostats
+media-sound/pulseaudio equalizer
+media-video/ffmpeg avx amr bluray schroedinger 
+media-video/mplayer a52 bluray faac libmpeg2 xvmc
+net-wireless/wpa_supplicant p2p wps  
+x11-apps/mesa-progs egl gles1 gles2
+media-video/cheese sendto 
+net-misc/networkmanage connection-sharing  modemmanager
+gnome-base/gvfs archive bluray fuse udisks gphoto2 
+gnome-base/nautilus sendto
+dev-qt/qtgui gtkstyle
+media-plugins/gst-plugins-meta ffmpeg a52 http libvisual opus vpx 
+x11-themes/gtk-engines-nodoka animation-rtl 
+x11-themes/gtk-engines-murrine animation-rtl
+dev-qt/qtsql qt3support  mysql
+dev-qt/qtgui qt3support
+dev-qt/qtcore qt3support
+media-libs/evas gles 
+dev-libs/ecore ares 
+dev-libs/eeze utilities
+media-libs/elementary ethumb emotion xdg
+media-libs/emotion vlc
+net-im/empathy gnome-online-accounts sendto 
+sys-libs/zlib minizip
+media-libs/elementary  quicklaunch
+dev-lang/php -recode zip soap -libedit apache2 mysql mysqli sqlite xmlwriter  
+app-text/poppler qt4 
+app-admin/eselect-php apache2 
+dev-lang/php pdo 
+dev-python/PyQt4 webkit 
+media-sound/ncmpcpp clock outputs visualizer
+dev-python/sympy imaging ipython mathml pyglet 
+dev-python/imaging webp lcms  
+media-libs/avidemux-core vaapi  
+media-sound/audacity twolame
+dev-python/django doc mysql 
+media-video/avidemux vaapi qt4 
+media-libs/avidemux-plugins qt4 
+media-libs/alsa-lib alisp
+sys-cluster/openmpi fortran romio cuda mpi-threads openmpi_fabrics_knem openmpi_rm_pbs 
+virtual/mpi fortran romio 
+dev-python/pyzmq tornado 
+sci-libs/scipy sparse
+dev-python/ipython matplotlib nbconvert notebook qt4 mongodb
+media-video/vlc run-as-root vaapi
+media-gfx/imagemagick perl corefonts hdri q8 webp
+x11-misc/shutter drawing webphoto 
+app-office/libreoffice gtk3 -eds -gstreamer -java
+x11-misc/xmobar threaded timezone
+media-libs/sdl-mixer mod 
+sys-block/gparted btrfs fat ntfs
+media-plugins/banshee-community-extensions mirage
+media-sound/clementine projectm moodbar
+x11-libs/cairo xcb
+media-tv/xbmc bluray gles goom -vaapi -vdpau
+net-analyzer/metasploit gui
+dev-scheme/racket X cairo futures jit places plot threads
+dev-lang/python tk 
+net-p2p/eiskaltdcpp idn lua -minimal sqlite upnp json 
+media-plugins/osdlyrics -xmms2
+media-sound/rhythmbox visualizer zeitgeist 
+sci-visualization/gnuplot qt4 bitmap
+sci-mathematics/octave hdf5 postscript 
+sci-libs/hdf5 mpi -cxx -fortran -threads  
+app-crypt/heimdal -ssl
+net-misc/networkmanager modemmanager
+sys-auth/pambase systemd
+media-video/ffmpeg vaapi
+virtual/ffmpeg vaapi
+app-admin/gkrellm hddtemp
+dev-lang/mono -nls
+media-sound/banshee web
+dev-cpp/glog gflags 
+net-misc/aria2 metalink scripts xmlrpc
+app-emulation/virtualbox extensions -java 
+sci-mathematics/gmp-ecm -openmp 
+sci-mathematics/pari data
+sci-libs/linbox sage
+sci-mathematics/lcalc pari
+sci-mathematics/maxima ecls clisp clozurecl
+media-gfx/tachyon -mpi
+dev-python/mpmath matplotlib -gmp
+dev-ml/ocamlnet -gtk
+dev-ml/lablgtk -gnome
+sys-kernel/geek-sources bfq bld brand ck exfat gentoo ice optimization pf uksm 
+www-client/firefox -minimal -gstreamer system-cairo system-jpeg system-icu 
+app-office/libreoffice -kde
+kde-base/kwin gles 
+dev-vcs/subversion -kde
+x11-themes/qtcurve kde  
+kde-base/kdeplasma-addons qwt scim attica oauth json ibus  
+kde-base/dolphin thumbnail
+x11-misc/xaos aalib
+ys-kernel/genkernel-next cryptsetup 
+dev-python/pyudev pyqt4
+dev-qt/qt-creator android autotools bazaar cmake cvs fakevim mercurial subversion
+net-libs/telepathy-qt farstream
+kde-base/okular chm ebook
+dev-db/mysql embedded
+kde-base/kdelibs semantic-desktop openexr 
+virtual/mysql embedded
+media-sound/amarok ipod lastfm ofa
+sci-astronomy/stellarium -sound
+kde-base/plasma-workspace json
+app-editors/gedit-plugins charmap terminal
+x11-libs/libdrm libkms
+x11-misc/colord -scanner
+net-dns/avahi gtk3 autoipd gtk 
+media-libs/harfbuzz -graphite 
+dev-util/cmake -qt4
+sys-libs/glibc nscd suid 
+app-shells/bash bashlogger plugins
+sys-libs/gdbm exporter
+sys-apps/tcp-wrappers netgroups 
+dev-libs/libpcre pcre16 pcre32
+x11-libs/libxcb xkb
+gnome-extra/evolution-data-server vala
+gnome-extra/nm-applet modemmanager gconf
+app-editors/gedit zeitgeist
+net-misc/networkmanager connection-sharing resolvconf 
+app-text/evince xps t1lib
+media-video/ffmpeg openssl
+net-fs/samba addns cluster smbsharemodes
+dev-python/PyQt4 kde multimedia 
+media-libs/gst-plugins-bad egl
+x11-libs/glamor gles
+net-dialup/ppp activefilter 
+gnome-base/gnome-control-center modemmanager
+gnome-base/gnome flashback
+dev-python/PyQt4  declarative sql script
+media-gfx/blender python_single_target_python3_3 cycles player
+gnome-extra/synapse plugins
+media-sound/rhythmbox python_single_target_python3_3
+sci-physics/root -openmpi
+sci-physics/root -openmp
+app-office/scribus scripts tk -minimal templates
+net-analyzer/wireshark lua -qt4 -gtk2 gtk3
+www-servers/apache apache2_modules_auth_digest
+dev-python/matplotlib gtk3
+sys-apps/usermode-utilities fuse
+net-wireless/pyrit -cuda 
+dev-util/nvidia-cuda-toolkit eclipse 
+kde-base/kdepim-runtime facebook google 
+www-client/rekonq kde opera
+media-video/minitube download kde
+app-text/acroread html
+>=www-plugins/adobe-flash-11.2.202.332 abi_x86_32 
+games-util/steam-client-meta flash trayicon
+app-accessibility/julius pulseaudio -alsa 
+app-accessibility/simon libsamplerate kdepim opencv sphinx
+media-sound/gnome-music python_single_target_python3_3
+# required by media-gfx/gnome-photos-3.10.2::gnome-next
+# required by gnome-base/gnome-extra-apps-3.10.1::gnome-next
+# required by gnome-base/gnome-3.10.0[extras]
+# required by =gnome-base/gnome-3.10.0 (argument)
+>=media-plugins/grilo-plugins-0.2.9 upnp-av
+# required by dev-vcs/subversion-1.7.14[ruby]
+# required by dev-qt/qt-creator-2.8.1[subversion]
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/rubygems-2.0.14 ruby_targets_ruby18
+x11-drivers/nvidia-drivers tools uvm
+sys-devel/gcc mudflap
+dev-ruby/mime-types -ruby_targets_ruby20
+dev-libs/efl -xcb audio -opengl gles egl 
+unity-base/ubuntuone-control-panel -python_targets_python2_7 python_single_target_python2_7
+unity-base/unity-meta -cloud webapps gnome
+unity-base/rhythmbox-ubuntuone python_single_target_python3_3
+dev-libs/xapian-bindings php_targets_php5-3 perl 
+app-admin/packagekit-base -bash-completion
+sys-devel/llvm -ncurses
+www-client/chromium aura 
+media-sound/guayadeque -minimal
+app-doc/doxygen dot
+sci-physics/bullet  examples extras precision doc double-precision 
+mate-base/mate -bluetooth
+dev-libs/efl -sdl
+media-libs/elementary -sdl
+sci-physics/hepmc gev cm examples
+sci-physics/pythia examples
+sci-visualization/extrema examples
+gnome-base/gdm -plymouth
+www-client/midori -introspection granite 
+sci-libs/scikits_learn examples
+sci-libs/scikits examples
+sys-apps/systemd vanilla 
+sys-apps/systemd gudev introspection keymap 
+sys-fs/eudev gudev hwdb introspection keymap 
+>=sys-fs/udev-171 gudev hwdb introspection keymap 
+>=virtual/udev-171 gudev hwdb introspection keymap
+virtual/libudev -static-libs 
+virtual/libgudev -static-libs
+www-client/midori -webkit2 granite
+gnome-base/gvfs -ios
+sys-power/upower -ios
+app-emulation/vmware-tools vmware_guest_freebsd vmware_guest_linux vmware_guest_solaris vmware_guest_windows
+app-emulation/vmware-workstation vmware-tools
+sci-libs/vtk tcl R rendering imaging 
+sci-visualization/mayavi examples
+

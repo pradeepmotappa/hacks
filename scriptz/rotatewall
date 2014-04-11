@@ -1,0 +1,10 @@
+#! /bin/bash
+WALLPAPERS="/root/Pictures/VB"
+ALIST=( `/bin/ls -w1 $WALLPAPERS` )
+RANGE=${#ALIST[@]}
+let "number = $RANDOM"
+let LASTNUM="`/bin/cat $WALLPAPERS/.last` + $number"
+let "number = $LASTNUM % $RANGE"
+echo $number > $WALLPAPERS/.last
+#/usr/bin/nitrogen --set-scaled --save $WALLPAPERS/${ALIST[$number]}
+feh --bg-center  $WALLPAPERS/${ALIST[$number]}
