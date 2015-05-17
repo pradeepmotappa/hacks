@@ -1,3 +1,10 @@
 =sys-process/whenjobs-0.7.3 **
-
+=pantheon-extra/elementary-tweaks-9999 **
 =games-action/fakk2-1.02 **
+=x11-misc/spacefm-9999 **
+=x11-wm/gala-9999 **
+=media-sound/banshee-2.9.0-r1 **
+# required by x11-misc/primus (argument)
+=x11-misc/primus-9999 **
+# required by raspberrypi-sources (argument)
+=sys-kernel/raspberrypi-sources-3.19.9999 **
