@@ -1,0 +1,116 @@
+
+xmonad.hs:57:1: Warning:
+    Module ‘System.Cmd’ is deprecated: Use "System.Process" instead
+
+xmonad.hs:147:23: Warning: Tab character
+
+xmonad.hs:206:8: Warning:
+    In the use of ‘defaultXPConfig’ (imported from XMonad.Prompt):
+    Deprecated: "Use def (from Data.Default, and re-exported from XMonad.Prompt) instead."
+
+xmonad.hs:232:13: Warning: Tab character
+
+xmonad.hs:232:29: Warning: Tab character
+
+xmonad.hs:240:20: Warning: Tab character
+
+xmonad.hs:243:36: Warning:
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+
+xmonad.hs:247:14: Warning:
+    In the use of ‘defaultGSConfig’
+    (imported from XMonad.Actions.GridSelect):
+    Deprecated: "Use def (from Data.Default, and re-exported from XMonad.Actions.GridSelect) instead."
+
+xmonad.hs:267:1: Warning: Tab character
+
+xmonad.hs:268:1: Warning: Tab character
+
+xmonad.hs:269:1: Warning: Tab character
+
+xmonad.hs:270:1: Warning: Tab character
+
+xmonad.hs:271:1: Warning: Tab character
+
+xmonad.hs:272:1: Warning: Tab character
+
+xmonad.hs:273:1: Warning: Tab character
+
+xmonad.hs:274:1: Warning: Tab character
+
+xmonad.hs:284:10: Warning:
+    In the use of ‘defaultTheme’
+    (imported from XMonad.Layout.Tabbed, but defined in XMonad.Layout.Decoration):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad.Layout.Decoration) instead."
+
+xmonad.hs:299:1: Warning: Tab character
+
+xmonad.hs:303:1: Warning: Tab character
+
+xmonad.hs:306:1: Warning: Tab character
+
+xmonad.hs:308:1: Warning: Tab character
+
+xmonad.hs:310:1: Warning: Tab character
+
+xmonad.hs:311:1: Warning: Tab character
+
+xmonad.hs:312:1: Warning: Tab character
+
+xmonad.hs:313:1: Warning: Tab character
+
+xmonad.hs:314:1: Warning: Tab character
+
+xmonad.hs:315:1: Warning: Tab character
+
+xmonad.hs:316:1: Warning: Tab character
+
+xmonad.hs:317:1: Warning: Tab character
+
+xmonad.hs:320:1: Warning: Tab character
+
+xmonad.hs:325:9: Warning:
+    In the use of ‘defaultTheme’
+    (imported from XMonad.Layout.Tabbed, but defined in XMonad.Layout.Decoration):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad.Layout.Decoration) instead."
+
+xmonad.hs:358:1: Warning: Tab character
+
+xmonad.hs:361:1: Warning: Tab character
+
+xmonad.hs:362:1: Warning: Tab character
+
+xmonad.hs:363:9: Warning: Tab character
+
+xmonad.hs:364:9: Warning: Tab character
+
+xmonad.hs:365:9: Warning: Tab character
+
+xmonad.hs:366:9: Warning: Tab character
+
+xmonad.hs:367:1: Warning: Tab character
+
+xmonad.hs:368:1: Warning: Tab character
+
+xmonad.hs:375:1: Warning: Tab character
+
+xmonad.hs:376:1: Warning: Tab character
+
+xmonad.hs:377:1: Warning: Tab character
+
+xmonad.hs:377:41: Warning: Tab character
+
+xmonad.hs:380:1: Warning: Tab character
+
+xmonad.hs:380:73: Warning:
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+
+xmonad.hs:382:1: Warning: Tab character
+
+xmonad.hs:382:38: Warning: Tab character
+
+xmonad.hs:383:1: Warning: Tab character

@@ -244,7 +244,7 @@ myManageHook = composeAll
  
 -- Grid Select Section
 --gsconfig2 colorizer = (buildDefaultGSConfig colorizer) { gs_cellheight = 60 ,gs_cellwidth = 250, gs_font = "xft:Droid Sans:pixelsize=20",gs_cellpadding = 5 }
-gsconfig1  = defaultGSConfig  { gs_cellheight = 60 ,gs_cellwidth = 250, gs_font = "xft:Lucida Grande Medium:pixelsize=20",gs_cellpadding = 5 }
+gsconfig1  = defaultGSConfig  { gs_cellheight = 60 ,gs_cellwidth = 250, gs_font = "xft:Cantarell Bold:pixelsize=18",gs_cellpadding = 5 }
 
 
 -- | A green monochrome colorizer based on window classimport XMonad.Layout.IM
@@ -261,7 +261,7 @@ myColorizer = colorRangeFromClassName
 
 
 appFontXft :: String
-appFontXft = "xft:Lucida Grande Medium:pixelsize=11" 
+appFontXft = "xft:Cantarell Bold:pixelsize=9" 
 --appFontXft = concat [ "xft:"
                      --,"Sans:"
 					 --,"pixelsize=11:"
@@ -300,29 +300,25 @@ myEventHook e = do
 
  
 myStartupHook = do
-		spawn "/usr/libexec/gnome-settings-daemon"
-		addScreenCorners [ (SCLowerRight,moveTo Next (WSIs (return $ not . (=="SP") . W.tag)))
-                      		 , (SCLowerLeft,moveTo Prev (WSIs (return $ not . (=="SP") . W.tag)))
-				 , (SCUpperLeft,goToSelected  gsconfig1 )
-                      		 ]
-		spawn "/usr/libexec/notification-daemon"
-		spawn "thermald --no-daemon --dbus-enable"
+		spawn "/usr/lib/gnome-settings-daemon/gnome-settings-daemon"
+--		spawn "/usr/libexec/notification-daemon"
+--		spawn "thermald --no-daemon --dbus-enable"
 		spawn "/usr/libexec/gnome-fallback-mount-helper"
-		spawn "/usr/local/bin/tomate"
+--		spawn "/usr/local/bin/tomate"
 		spawn "/usr/bin/gnome-sound-applet"
-		spawn "whenjobs --daemon-start"
+--		spawn "whenjobs --daemon-start"
 		spawn "/usr/bin/nm-applet"
 		spawn "/usr/bin/synapse"
 		spawn "/usr/bin/start-pulseaudio-x11"
 		spawn "/usr/bin/gsettings-data-convert"
 		spawn "/usr/bin/xdg-user-dirs-gtk-update"
-		spawn "/usr/bin/trayer-srg --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 220 --widthtype pixel  --transparent true --height 22"
+		spawn "/usr/bin/trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 200 --widthtype pixel  --transparent true --height 22"
 		spawn "/usr/bin/compton"
 		spawn "/usr/bin/gnome-keyring-daemon --start --components=gpg,pkcs11,secrets,ssh"
-		spawn "/usr/bin/tasque"
-		spawn "/bin/bash /root/scriptz/synclient.sh"
+--		spawn "/usr/bin/tasque"
+--		spawn "/bin/bash /root/scriptz/synclient.sh"
 		spawn "/usr/bin/zim"
-		spawn "/usr/local/bin/artha"
+--		spawn "/usr/local/bin/artha"
 
 
 -- tab theme
@@ -340,9 +336,9 @@ myTab = defaultTheme
 --myLogHook = ewmhDesktopsLogHookCustom scratchpadFilterOutWorkspace >> updatePointer Nearest
 myLogHook h = dynamicLogWithPP $ myDzenPP { ppOutput = hPutStrLn h }
 
-myDzenStatus = "dzen2 -w '900' -ta 'l'" ++ myDzenStyle
-myDzenConky  = "conky -c ~/.xmonad/conkyrc | dzen2 -x '900' -w '800' -ta 'r'" ++ myDzenStyle
-myDzenStyle  = " -h '22' -fg '#777777' -bg '#222222' -fn 'Lucida Grande:bold:size=10'"
+myDzenStatus = "dzen2 -w '600' -ta 'l'" ++ myDzenStyle
+myDzenConky  = "conky -c ~/.xmonad/conkyrc | dzen2 -x '600' -w '650' -ta 'r'" ++ myDzenStyle
+myDzenStyle  = " -h '22' -fg '#777777' -bg '#222222' -fn 'Cantarell Bold:size=9'"
 --myStartMenu = "/home/roh/.xmonad/start /home/roh/.xmonad/start_apps"
 
 myDzenPP  = dzenPP
