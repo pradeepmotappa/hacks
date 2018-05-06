@@ -261,7 +261,7 @@ myColorizer = colorRangeFromClassName
 
 
 appFontXft :: String
-appFontXft = "xft:Cantarell Bold:pixelsize=9" 
+appFontXft = "xft:Cantarell Bold:pixelsize=11" 
 --appFontXft = concat [ "xft:"
                      --,"Sans:"
 					 --,"pixelsize=11:"
@@ -300,7 +300,7 @@ myEventHook e = do
 
  
 myStartupHook = do
-		spawn "/usr/lib/gnome-settings-daemon/gnome-settings-daemon"
+--		spawn "/usr/lib/gnome-settings-daemon/gsd-xsettings"
 --		spawn "/usr/libexec/notification-daemon"
 --		spawn "thermald --no-daemon --dbus-enable"
 		spawn "/usr/libexec/gnome-fallback-mount-helper"
@@ -312,7 +312,7 @@ myStartupHook = do
 		spawn "/usr/bin/start-pulseaudio-x11"
 		spawn "/usr/bin/gsettings-data-convert"
 		spawn "/usr/bin/xdg-user-dirs-gtk-update"
-		spawn "/usr/bin/trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 200 --widthtype pixel  --transparent true --height 22"
+		spawn "/usr/bin/trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 230 --widthtype pixel  --transparent true --height 22"
 		spawn "/usr/bin/compton"
 		spawn "/usr/bin/gnome-keyring-daemon --start --components=gpg,pkcs11,secrets,ssh"
 --		spawn "/usr/bin/tasque"
@@ -336,9 +336,9 @@ myTab = defaultTheme
 --myLogHook = ewmhDesktopsLogHookCustom scratchpadFilterOutWorkspace >> updatePointer Nearest
 myLogHook h = dynamicLogWithPP $ myDzenPP { ppOutput = hPutStrLn h }
 
-myDzenStatus = "dzen2 -w '600' -ta 'l'" ++ myDzenStyle
-myDzenConky  = "conky -c ~/.xmonad/conkyrc | dzen2 -x '600' -w '650' -ta 'r'" ++ myDzenStyle
-myDzenStyle  = " -h '22' -fg '#777777' -bg '#222222' -fn 'Cantarell Bold:size=9'"
+myDzenStatus = "dzen2 -w '950' -ta 'l'" ++ myDzenStyle
+myDzenConky  = "conky -c ~/.xmonad/conkyrc | dzen2 -x '950' -w '800' -ta 'r'" ++ myDzenStyle
+myDzenStyle  = " -h '22' -fg '#777777' -bg '#222222' -fn 'Cantarell Bold:size=11'"
 --myStartMenu = "/home/roh/.xmonad/start /home/roh/.xmonad/start_apps"
 
 myDzenPP  = dzenPP
