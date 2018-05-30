@@ -336,8 +336,8 @@ myTab = defaultTheme
 --myLogHook = ewmhDesktopsLogHookCustom scratchpadFilterOutWorkspace >> updatePointer Nearest
 myLogHook h = dynamicLogWithPP $ myDzenPP { ppOutput = hPutStrLn h }
 
-myDzenStatus = "dzen2 -w '950' -ta 'l'" ++ myDzenStyle
-myDzenConky  = "conky -c ~/.xmonad/conkyrc | dzen2 -x '950' -w '800' -ta 'r'" ++ myDzenStyle
+myDzenStatus = "dzen2 -w '1100' -ta 'l'" ++ myDzenStyle
+myDzenConky  = "conky -c ~/.xmonad/conkyrc | dzen2 -x '1100' -w '800' -ta 'r'" ++ myDzenStyle
 myDzenStyle  = " -h '22' -fg '#777777' -bg '#222222' -fn 'Cantarell Bold:size=11'"
 --myStartMenu = "/home/roh/.xmonad/start /home/roh/.xmonad/start_apps"
 
