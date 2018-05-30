@@ -164,7 +164,7 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
         broadcastMessage ReleaseResources >> restart "xmonad" True)
 
  -- Logout of  xmonad
-    , ((modMask .|. shiftMask , xK_q     ),io (exitWith ExitSuccess))
+    , ((modMask .|. shiftMask , xK_q     ),sequence_ [io (exitWith ExitSuccess), spawn "gnome-session-quit --force"])
     ]
  
     ++
@@ -300,8 +300,8 @@ myEventHook e = do
 
  
 myStartupHook = do
---		spawn "/usr/lib/gnome-settings-daemon/gsd-xsettings"
---		spawn "/usr/libexec/notification-daemon"
+		spawn "/usr/lib/gnome-settings-daemon/gsd-xsettings"
+		spawn "/usr/libexec/notification-daemon"
 --		spawn "thermald --no-daemon --dbus-enable"
 		spawn "/usr/libexec/gnome-fallback-mount-helper"
 --		spawn "/usr/local/bin/tomate"
