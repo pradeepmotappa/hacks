@@ -1,1 +1,1 @@
-Bunch of COnfigs and Scripts 
+Bunch of Configs and Scripts 
